@@ -6,7 +6,7 @@
 		<meta content="utf-8" http-equiv="encoding">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#2f856b">
-        <link rel="shortcut icon" type="image/png" href="../img/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
         <title>IBeTo | Excel 2019</title>
 
         <link rel="stylesheet" href="./styles/index.css">
@@ -35,6 +35,9 @@
 <body>
     <div id="fullpage">
     <div id="sections-container">
+        <div id="landingSection" class="section section-0" style="padding:0;">
+            <iframe style="width: 100vw;height: 100vh;border: none;" src="animation.html"></iframe>
+        </div>
         <div class="parallelogram"></div>
         <!--<div class="triangle-corner"></div>-->
         <div class="content">
@@ -46,10 +49,10 @@
                             <li id="landing" onclick="scrollToSection(this.id, 0)">Home</li>
                             <li id="aboutUs" onclick="scrollToSection(this.id, 1)">About Us</li>
                             <li id="eventFormat" onclick="scrollToSection(this.id, 2)">Event Format</li>
-                            <li id="generalGuidelines" onclick="scrollToSection(this.id, 3)">General Guidelines</li>
+                            <li id="problemStatements" onclick="scrollToSection(this.id, 3)">Problem Statements</li>
                             <li id="reward" onclick="scrollToSection(this.id, 4)">Rewards</li>
                             <li id="timeline" onclick="scrollToSection(this.id, 5)">TimeLine</li>
-                            <!--<li id="ibetoJunior" onclick="scrollToSection(this.id, 6)">IBeTo Junior</li>-->
+                            <li id="ibetoJunior" onclick="scrollToSection(this.id, 6)">IBeTo Junior</li>
                             <li id="contact" onclick="scrollToSection(this.id, 7)">Contacts</li>
                         </ul>
                     </nav>
@@ -60,18 +63,14 @@
                         <div  class="matrix"></div>
                         <div class="section-content about-container">
                             <div class="image-container animate1">
-                                <img src="../img/logo jnr.png" />
+                                <img src="img/ibeto logo.png" />
                             </div> 
                             <div class="section-text">
                                     <div class="left-side-wrapper">
                                         <div class="triangle-small-p"></div>
                                     </div>
                                     <h1 class="animate1">About </h1>
-                                    <p class="animate1"><b>Innovations for a Better Tomorrow (IBeTo)</b> the flagship event of Excel 2019, is a national
-                                        level hunt for technologically innovative ideas with the potential to trigger the next big change.
-                                        <b>IBeTo Junior</b> sets the stage for school students from classes 7 to 12, with innovative and
-                                        socially relevant ideas, to showcase the budding engineer in them.
-                                        
+                                    <p class="animate1"><b>Innovations for a Better Tomorrow (IBeTo)</b> is the flagship event of EXCEL. It is a national level pursuit for socially relevant and technologically innovative ideas with the potential to trigger the next big social change. IBeTo gives the right platform and mentorship to launch the most technically innovative and revolutionary ideas and to develop them into a final product.
 
 
                                     </p>
@@ -95,76 +94,49 @@
                             <div class="section-content" style="margin-top:-6em;">
                                 <h1 class="center-text animate2">Event Format</h1>
                                 <div class="event-container animate2">
-                                    <style>
-                                    .wrapper{
-                                        display:grid;
-                                        grid-template-columns: 50% 50%;
-                                        grid-gap:2em;
-
-                                    }
-                                    
-                                    </style>
-                                    body{
-
-                                        
-
-                                    
-                                    <div class = "wrapper">
-                                    <div>
-                                            <h2>Team Formation</h2>
-                                            Participation may be individual or as a group of maximum 5 members.
-                                            The participants need not be from the same institution and each team
-                                            should have at least one teacher accompanying them.
-                                            
+                                    <div class="event-card">
+                                        <img alt="ideate" src="img/ideate.png" />
+                                        <div class="event-card-info">Ideate
+                                            <p style="font-size:1rem;">Participants will submit their <b>ideas</b> and their choice of problem statement with solution. <b>60 teams</b> will be shortlisted and asked to send a detailed abstract.</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                            <h2>Check your eligibility</h2>
-                                            Participants may be students studying in classes 7 to 12, with an upper
-                                            age limit of 19 years.
-                                            
+                                    <div class="event-card">
+                                        <img alt="create" src="img/create.png"/>
+                                        <div class="event-card-info">Create
+                                            <p style="font-size:1rem;"><b>20 teams</b> shortlisted into the quarterfinals will be asked to send in their project plans and assigned mentors to whom the teams are to report to.</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                            <h2>Finding your abstract details</h2>
-                                            Each team may submit any number of abstracts which are technological
-                                            solutions to socially relevant problems. The project should necessarily be
-                                            feasible and innovative.
+                                    <div class="event-card">
+                                        <img alt="showcase" src="img/showcase.png"/> 
+                                        <div class="event-card-info">Showcase
+                                            <p style="font-size:1rem;">The <b>20 teams</b> should present their working prototype in front of the judges at the event finals, on <b>Day 0 of Excel 2019</b>.</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                            <h2>Event Details</h2>
-                                            Based on the abstract submitted, 20 teams will be shortlisted into the
-                                            finals which will be held on Day 1 of Excel 2019. The selected teams will
-                                            be intimated through email. These teams must be ready with their working
-                                            prototype by the 2nd week of September.
-                                            
-                                    </div>
-                                    </div>
-                                }
-                                    
-                                        
-                                    
                                 </div>
                                 
                             </div>
                         </div>
 
 
-                    <!--GENERAL GUIDELINES -->
-                    <div id="generalGuidelinesSection" class="section section-3">
+                    <!--PROBLEM STATEMENTS -->
+                    <div id="problemStatementsSection" class="section section-3">
                         <div class="section-content problem-container">
                                 <div class="image-container animate3">
-                                        <img src="../img/statement.png"/>
+                                        <img src="img/statement.png"/>
                                 </div>
                                 <div class="section-text">
-                                    <h1 class="animate3">General Guidelines</h1>
+                                    <h1 class="animate3">Problem Statements</h1>
+                                    <p class="animate3">IBeTo 2019 will endeavour to create lasting solutions for the following problem statements and herald a better tomorrow : </p>
                                     <ul class="animate3">
-                                        <li>Decision of the judges shall be final and binding.
-                                        </li>
-                                        <li>The coordinators reserve the right to reject any entries. Reason for selection or rejection
-                                            will be specified through email.</li>
-                                        <li> Rules are liable to change, and you will be informed of any changes</li>
-                                        
+                                        <li>FinTech</li>
+                                        <li>Improving Governance </li>
+                                        <li>Project: Rebuild Kerala</li>
+                                        <li>Citizen Safety</li>
+                                        <li>Revolutionising Energy and Cleantech</li>
+                                        <li>Any other socially relevant problem statement</li>
                                     </ul>
-                                            
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSetgfYgWyGg8LalbNIcMhIL-OOE1EM6LsCTAttg1CBumtpc1g/viewform?usp=sf_link" target="_blank"  class="button animate3" style="background-color:#f14e4e">Register</a>
+                                    <a href="img/IBeTo 2019 _ Event General Rules & Format.pdf" download class="button animate3" style="background-color:#f1bb4e">Rules</a>        
                                 </div>
                         </div>
                     </div>
@@ -177,15 +149,17 @@
                             <h1 class="animate4" style="text-align: center">Rewards</h1>
                             <p class="animate4">
                                 <ul>
-                                    <li>The best projects will be awarded cash prizes worth INR 25,000/- </li>
-                                    <li>All the contestants will also be awarded participation certificates.</li>
-                                    
+                                    <li>The best projects will be awarded cash prizes worth INR 1,00,000/- </li>
+                                    <li>Top 3 teams will get a direct entry into the final round of the ‘Idea Fest’ competition by KSUM.</li>
+                                    <li>Selected teams will get a chance to receive incubation & office space by InQ.</li>
+                                    <li>Certificate of Participation will be awarded, signed by the concerned authorities.</li>
+                                    <li>As per KTU regulations, socially relevant projects will be given 50 activity points.</li>
                                 </ul>
 
                             </p>
                         </div>
                         <div class="image-container animate4" >
-                            <img src="../img/prize.png"/>
+                            <img src="img/prize.png"/>
                         </div>
                         </div>
                         </div>
@@ -194,59 +168,81 @@
                     <div id="timelineSection" class="section section-5" >
                         <div class="section-content  animate5">
                             <h1 class="animate5" style="text-align: center">TimeLine</h1>
+                            <img alt="timeline" src="img/timelinex.png" />
                             <div class="timeline-container ">
 
                                 <div class="timeline-block timeline-block-right">
                                    <div class="marker"></div>
                                    <div class="timeline-content">
-                                      <h3>1 July 2019</h3>
-                                      <span>Commencement of abstract submission</span>
+                                      <h3>9 April 2019</h3>
+                                      <span>IBeTo Launch</span>
                                    </div>
                                 </div>
                              
                                 <div class="timeline-block timeline-block-left">
                                    <div class="marker"></div>
                                    <div class="timeline-content">
-                                      <h3>20 July 2019</h3>
-                                      <span>Last date to send in the abstracts</span>
+                                      <h3>12 May 2019</h3>
+                                      <span>Idea submission deadline</span>
                                    </div>
                                 </div>
                              
                                 <div class="timeline-block timeline-block-right">
                                    <div class="marker"></div>
                                    <div class="timeline-content">
-                                      <h3>1st week of August</h3>
-                                      <span>Teams will be shortlisted and informed of further details via email</span>
+                                      <h3>17 May 2019</h3>
+                                      <span>Announcement of shortlisted teams</span>
                                    </div>
                                 </div>
                              
                                 <div class="timeline-block timeline-block-left">
                                    <div class="marker"></div>
                                    <div class="timeline-content">
-                                      <h3>2nd week of September</h3>
-                                      <span>The contestants should be prepared with a working prototype
-                                        of the product
-                                        </span>
+                                      <h3>9 June 2019</h3>
+                                      <span>Detailed abstract submission</span>
                                    </div>
                                 </div>
                              
                                 <div class="timeline-block timeline-block-right">
                                    <div class="marker"></div>
                                    <div class="timeline-content">
-                                      <h3>October Day 3 of EXCEL</h3>
-                                      <span>Event Day</span>
+                                      <h3>20 June 2019</h3>
+                                      <span>Announcement of shortlisted teams.</span>
                                    </div>
                                 </div>
-                                
+                                <div class="timeline-block timeline-block-left">
+                                    <div class="marker"></div>
+                                    <div class="timeline-content">
+                                       <h3>June to September 2019</h3>
+                                       <span>Prototype Development & Report Submissions</span>
+                                    </div>
+                                 </div>
                               
-                                
-                                 
-                                 
+                                 <div class="timeline-block timeline-block-right">
+                                    <div class="marker"></div>
+                                    <div class="timeline-content">
+                                       <h3>29 Sept 2019</h3>
+                                       <span>Final Report submission. Video proof of working prototype.</span>
+                                    </div>
+                                 </div>
+                                 <div class="timeline-block timeline-block-left">
+                                    <div class="marker"></div>
+                                    <div class="timeline-content">
+                                       <h3>October</h3>
+                                       <span>Excel Day - Final presentation</span>
+                                    </div>
+                                 </div>
                              </div>
                         </div>
                     </div>
 
-                    
+                    <div id="ibetoJuniorSection" class="section section-6" >
+                            <div class="section-content animate6">
+                            <h1>IBeTo Jr.</h1>
+                            <h2>Coming Soon</h2>
+                            
+                        </div>
+                        </div>
 
                         <!-- Sponsors -->
                     <div class="sponsor" style="background-color: white">
@@ -254,13 +250,13 @@
                                 <h1 class="animate1" style="text-align: center;">Associating Partners</h1>
                                 <div class="sponsor-container">
                                         <div class="title-sponsor">
-                                              <img src="../img/Kerala Startup Mission Logo.png" alt="Kerala Startup Mission" />
+                                              <img src="img/Kerala Startup Mission Logo.png" alt="Kerala Startup Mission" />
                                         </div>
                                         <div class="title-sponsor" style="padding-top:10px;" >
-                                                <img src="../img/inQ_Logo-Final.png" style="height:60%;"alt="inQ" />
+                                                <img src="img/inQ_Logo-Final.png" style="height:60%;"alt="inQ" />
                                         </div>
                                         <div class="title-sponsor geojit">
-                                                <img src="../img/geojit.png" style="height:100%;width:75%;"alt="Geojit" />
+                                                <img src="img/geojit.png" style="height:100%;width:75%;"alt="Geojit" />
                                           </div>
         
                                     </div>
@@ -272,7 +268,7 @@
                             <h1 class="animate7">Contacts</h1>
                             <div class="contact-cards-group">
                                 <div class="contact-card animate7">
-                                    <img class="contact-img" src="../img/shehzin.jpeg">
+                                    <img class="contact-img" src="img/shehzin.jpeg">
                                     <div class="contact-dets">
                                         <div>Shehzin Shajahan</div>
                                         <div>Chairman</div>
@@ -282,7 +278,7 @@
                                     </div>
                                 </div>
                                 <div class="contact-card animate7">
-                                    <img class="contact-img" src="../img/akhil_abraham.jpeg">
+                                    <img class="contact-img" src="img/akhil_abraham.jpeg">
                                     <div class="contact-dets">
                                         <div>Akhil Abraham</div>
                                         <div>General Secretary</div>
@@ -294,7 +290,7 @@
                             </div>
                             <div class="contact-cards-group">
                                 <div class="contact-card animate7">
-                                    <img class="contact-img" src="../img/sharat_kurup.jpeg">
+                                    <img class="contact-img" src="img/sharat_kurup.jpeg">
                                     <div class="contact-dets">
                                         <div>Sharat Kurup </div>
                                         <div>Joint Secretary</div>
@@ -304,7 +300,7 @@
                                     </div>
                                 </div>
                                 <div class="contact-card animate7">
-                                    <img class="contact-img" src="../img/bhairavi.jpeg">
+                                    <img class="contact-img" src="img/bhairavi.jpeg">
                                     <div class="contact-dets">
                                         <div>Bhairavi Sameer Shah</div>
                                         <div>Social Initiatives Manager</div>
@@ -318,7 +314,7 @@
                     </div>
                     <footer class="section section-8 flex-rw" style="min-height:auto ; margin:0; padding:0">
                         
-                       <!-- <div class="footer-social-section flex-rw">
+                        <!--<div class="footer-social-section flex-rw">
                             <span class="footer-social-overlap footer-social-connect">
                             CONNECT <span class="footer-social-small">with</span> US
                             </span>
@@ -328,34 +324,34 @@
                             <a href="https://www.youtube.com/user/excelmec" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
                             <a href="https://twitter.com/excelmec?lang=en" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
                             </span>
-                        </div>-->
-                        
+                        </div>
+                        -->
                         <div class="footerDiv">
                             <div class="footerIbeto">
-                                <a href=>
-                                    <img src="../img/Copy of mec_logo.png">
+                                <a href="http://www.mec.ac.in/">
+                                    <img src="img/Copy of mec_logo.png">
                                 </a>
                 
                             </div>
                             <div class="icon1">
-                                <a href="https://twitter.com/excelmec?lang=en">
-                                    <img src="../img/tweet.svg">
+                                <a href="//twitter.com/excelmec?lang=en">
+                                    <img src="img/tweet.svg">
                 
                                 </a>
                             </div>
                             <div class="icon2">
-                                <a href="https://www.facebook.com/excelmec/">
-                                    <img src="../img/fb.svg">
+                                <a href="//www.facebook.com/excelmec/">
+                                    <img src="img/fb.svg">
                                 </a>
                             </div>
                             <div class="icon3">
-                                <a href="https://www.instagram.com/excelmec/?hl=en">
-                                    <img src="../img/instagram (2).png">
+                                <a href="//www.instagram.com/excelmec/?hl=en">
+                                    <img src="img/instagram (2).png">
                                 </a>
                             </div>
                             <div class="footerExcel">
-                                <a href="https://excelmec.org">
-                                    <img src="../img/excel 2019.png">
+                                <a href="//excelmec.org">
+                                    <img src="img/excel 2019.png">
                                 </a>
                             </div>
                             <div class="Excelbrand">
@@ -368,8 +364,8 @@
         </div>
     </div>
     <!-- Javascript -->
-    <script src="../scripts/fullpage.js?v=1.0"></script>
-    <script src="../scripts/index.js?v=1.0"></script>
+    <script src="scripts/fullpage.js?v=1.0"></script>
+    <script src="scripts/index.js?v=1.0"></script>
 </body>
 
 </html>
